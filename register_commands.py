@@ -1,6 +1,5 @@
 # register_commands.py
-# Run: pip install requests python-dotenv
-# Then: python register_commands.py
+
 from __future__ import annotations
 import os, sys, json
 from dotenv import load_dotenv
