@@ -1,24 +1,19 @@
-```markdown
+
 # Web Client Detector (Python)
 
-A small Discord moderation bot that detects users who appear to be **web-only** clients and helps route them through a verification flow or mark them as *Sus* (suspicious). This repository contains the Python implementation — run `bot.py` to start the bot. :contentReference[oaicite:0]{index=0}
+A small Discord moderation bot that detects users who appear to be **web-only** clients and helps route them through a verification flow or mark them as *Sus* (suspicious). This repository contains the Python implementation — run `bot.py` to start the bot. 
 
-If you want the original JavaScript version, see the JS repo:
-```
-
-[Web-Client Detector (JavaScript)](https://github.com/ChokorKassem/web-client-detector-js)
-
-````
+If you want the original JavaScript version, see the JS repo: [Web-Client Detector (JavaScript)](https://github.com/ChokorKassem/web-client-detector-js)
 
 ---
 
 # Files & where to put them
 
-- `bot.py` — main bot (drop-in; run this to start the bot). :contentReference[oaicite:1]{index=1}  
-- `register_commands.py` — registers guild slash commands (run after you edit commands). :contentReference[oaicite:2]{index=2}  
-- `register_commands_force.py` — fallback that force-replaces guild commands if normal registration fails (use only when needed). :contentReference[oaicite:3]{index=3}  
-- `requirements.txt` — Python dependencies (install with `pip install -r requirements.txt`). :contentReference[oaicite:4]{index=4}  
-- `.env.example` — example env file (copy to `.env` and fill secrets/IDs).  
+- [bot.py](./bot.py) — main bot (drop-in; run this to start the bot).
+- [register_commands.py](./register_commands.py) — registers guild slash commands (run after you edit commands).
+- [register_commands_force.py](./register_commands_force.py) — fallback that force-replaces guild commands if normal registration fails (use only when needed).
+- [requirements.txt](./requirements.txt) — Python dependencies (install with `pip install -r requirements.txt`). :contentReference[oaicite:4]{index=4}  
+- [.env.example](./.env.example) — example env file (copy to `.env` and fill secrets/IDs).  
 - `config.json` — created automatically on first run; stores runtime settings (do not commit).
 
 ---
