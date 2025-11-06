@@ -12,7 +12,7 @@ If you want the original JavaScript version, see the JS repo: [Web-Client Detect
 - [bot.py](./bot.py) — main bot (drop-in; run this to start the bot).
 - [register_commands.py](./register_commands.py) — registers guild slash commands (run after you edit commands).
 - [register_commands_force.py](./register_commands_force.py) — fallback that force-replaces guild commands if normal registration fails (use only when needed).
-- [requirements.txt](./requirements.txt) — Python dependencies (install with `pip install -r requirements.txt`). :contentReference[oaicite:4]{index=4}  
+- [requirements.txt](./requirements.txt) — Python dependencies (install with `pip install -r requirements.txt`).
 - [.env.example](./.env.example) — example env file (copy to `.env` and fill secrets/IDs).  
 - `config.json` — created automatically on first run; stores runtime settings (do not commit).
 
