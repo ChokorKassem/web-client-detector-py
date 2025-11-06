@@ -1,0 +1,6 @@
+discord.py>=2.2.3
+python-dotenv
+aiocron
+aiofiles
+pytz
+requests

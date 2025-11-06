@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtualenvs
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets & runtime data
+.env
+config.json
+sus_platforms.json
+*.csv
+*.log
+*.sqlite3
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
